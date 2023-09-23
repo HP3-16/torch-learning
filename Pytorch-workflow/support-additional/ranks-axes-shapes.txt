@@ -10,6 +10,8 @@ Rank: No. of dimensions present in a tensor
 
         Rank = 2
 
+        Rank = len(T.shape)
+
 
 Axes: The geometric shape in which the tensor is distributed
 

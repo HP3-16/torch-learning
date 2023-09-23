@@ -1,0 +1,14 @@
+Tensors:
+Tensors operations need same dtype and devices
+
+Creating Tensors:
+1. torch.Tensor(): Class Constructor. by default makes dtype float32
+
+2. torch.tensor(): Factory Function, creates a tensor
+
+3. torch.as_tensor(): Factory Function, creates a tensor
+
+4. torch.from_numpy(): Factory Function, creates a tensor
+
+Creating Tensors without data:
+1. torch.eye()

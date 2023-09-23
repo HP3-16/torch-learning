@@ -1,0 +1,16 @@
+CNN (Convolutional Neural Network)
+
+input shape = [B,C,H,W]
+B - No. of samples in a batch
+C - Color Channels
+H,W - Img H, W
+
+Assume that you have [1,1,28,28] image and 3 filters
+- Each filter would convolve on the image giving a total of 3 output channels.
+- The size of filter, size of output channel would change.
+- These output channels are called feature map.
+  [
+    'Feature' because the output represent particular features from the image, eg. edges.
+    These mappings emerge as the network learns from the training
+    ]
+
