@@ -1,0 +1,35 @@
+GPU is a processor that is good at handling specialized computations
+CPU is a processor that is good at handling general computations
+
+Parallel Computing - GPU
+[
+    A particular computation broken into independent smaller computations, that can be carried out simultaneously.
+    The resulting computation is recombined or synchronized to form the result of the original computation.
+] 
+
+The number of computations that the main can be broken into depends on 
+number of cores on the particular hardware it is run on
+
+CPU - 4/8/16 cores
+GPU - Numerous cores
+
+Hence GPU can do parallel computation.
+
+GPU is faster for only particular tasks.
+[
+    Bottlenecks : Moving from CPU to GPU is costly. So relatively simple tasks may take more time 
+although they have simple computation. GPU works well for tasks that can be broken down into many smaller tasks.
+If the task is already small, there is not much to gain from trying to break it up and move it to GPU. 
+
+]
+
+"GPGPU Computing" 
+
+
+Layers:
+
+  Frameworks [PyTorch]
+-------------
+  Libraries [CUDNN,etc.]
+-------------
+    GPU
