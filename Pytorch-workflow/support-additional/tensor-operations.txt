@@ -1,2 +1,10 @@
 squeeze removes an extra dimension
 unsqueeze adds an extra dimension
+
+Elementwise operations need the same shape to be executed
+eg: t1 + t2 is only possible if t1.shape == t2.shape
+
+In case of addition (Elementwise operations) to scalar, the scalar is broadcasted to 
+the shape of the tensor on which the Elementwise operations are done.
+done by np.broadcast_to(*args)
+
