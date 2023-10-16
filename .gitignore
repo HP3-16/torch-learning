@@ -3,3 +3,5 @@ Initial/white-wine-quality/*
 Networks/datasets/*
 Projects/COVID-XRAY/data/*
 Projects/COVID-XRAY/__pycache__
+rnn/kaggle.json
+rnn/fake-and-real-news-dataset
