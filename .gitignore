@@ -6,3 +6,4 @@ Projects/COVID-XRAY/__pycache__
 rnn/kaggle.json
 rnn/fake-and-real-news-dataset
 rnn/scripts/customDataset_.ipynb
+rnn/news_data.csv
