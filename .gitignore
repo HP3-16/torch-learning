@@ -9,3 +9,5 @@ rnn/scripts/customDataset_.ipynb
 rnn/news_data.csv
 rnn/.vector_cache
 rnn/scripts/__pycache__
+Projects/FAKE-NEWS-DETECTION/modules/__pycache__
+Projects/FAKE-NEWS-DETECTION/.vector_cache
