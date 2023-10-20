@@ -7,3 +7,5 @@ rnn/kaggle.json
 rnn/fake-and-real-news-dataset
 rnn/scripts/customDataset_.ipynb
 rnn/news_data.csv
+rnn/.vector_cache
+rnn/scripts/__pycache__
