@@ -39,7 +39,7 @@ class TextClassificationDataset(Dataset):
             idx = idx.tolist()
         return self.tensor_data[idx], self.tensor_y[idx] 
     
-    def build_vocab(self, corpus, count_threshold):
+    def build_vocab(self, corpus: list, count_threshold: int):
         word_counts = {}
         for sent in corpus:
             for word in word_tokenize(sent.lower()):
